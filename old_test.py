@@ -9,10 +9,10 @@ class my_test():
     for j in range(51):
       if j < 26:
         s.get(str(j))
-      elif j < 35:
+      elif j < 51:
         s.get(str(j-26))
       else:
-        s.get(str(j-35))    
+        s.get(str(j-51))    
     s.print_all()
     s.put('999',9000)
     s.print_all()
